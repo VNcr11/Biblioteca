@@ -156,7 +156,7 @@ __webpack_require__.r(__webpack_exports__);
 class LibrosService {
     constructor(http) {
         this.http = http;
-        this.API_URI = 'http://10.48.133.43:3000/api';
+        this.API_URI = 'http://3.15.150.101:3001/api';
     }
     getCategorias2() {
         return this.http.get(`${this.API_URI}/categoria`);
@@ -394,7 +394,7 @@ __webpack_require__.r(__webpack_exports__);
 class CategoriasService {
     constructor(http) {
         this.http = http;
-        this.API_URI = 'http://10.48.133.43:3000/api';
+        this.API_URI = 'http://3.15.150.101:3001/api';
     }
     getCategorias() {
         return this.http.get(`${this.API_URI}/categoria`);
