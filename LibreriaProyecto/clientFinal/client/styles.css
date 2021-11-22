@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(120deg,#0d758f,#44c082);
+    
+    height: 110vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 1;
+    }
+.card-Body{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        transform: translate(-50%,-50);
+        width: 400px;
+        background: white;
+        border-radius: 10px;
+    }
+.card-Body h1{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
+.card-Body form{
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+form .card-Body{
+        position: relative;
+        border-bottom:  2px solid #adadad;
+        margin: 30px 0;
+    }
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+.navbar {
+        font-size: .765625rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+li
+    {
+      -webkit-text-decoration: wavy;
+              text-decoration: wavy;
+      color: black;  
+    }
+li a{
+        color: white;
+        text-decoration: none;
+    }
+li :hover{
+        color: white;
+        background-color: rgba(8, 49, 138, 0.631);
+        border-radius: 20px;
+    }
+
+/*# sourceMappingURL=styles.css.map*/
